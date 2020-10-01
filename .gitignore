@@ -1,0 +1,9 @@
+# node_module
+node_modules/
+
+# credentials
+credentials.js
+
+# log
+*.log
+*.lock
