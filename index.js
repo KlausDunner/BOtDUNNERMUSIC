@@ -51,4 +51,4 @@ klaw(resolve(__dirname, 'events')).on('data', (item) => {
     );
 });
 
-client.login(credentials.DISCORD_TOKEN); // token is in process.env.DISCORD_TOKEN
+client.login(NzE3ODA1NjkzNDY5NzIwNzY3.XtfqpQ.DhnhJOoNBoS3mTqwAaxUqkfk1-o); // token is in process.env.DISCORD_TOKEN
