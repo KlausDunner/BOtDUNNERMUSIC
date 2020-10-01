@@ -1,4 +1,4 @@
-# mika
+dunner
 [![GitHub license](https://img.shields.io/github/license/Shaynlink/mika.svg)](https://github.com/Shaynlink/mika/blob/master/LICENSE) [![Github all releases](https://img.shields.io/github/downloads/Shaynlink/mika/total.svg)](https://GitHub.com/Shaynlink/mika/releases/) [![GitHub stars](https://img.shields.io/github/stars/Shaynlink/mika.svg)](https://GitHub.com/Shaynlink/mika/stargazers/) [![GitHub watchers](https://img.shields.io/github/watchers/Shaynlink/mika.svg)](https://GitHub.com/Shaynlink/mika/watchers/) [![GitHub issues](https://img.shields.io/github/issues/Shaynlink/mika.svg)](https://GitHub.com/Shaynlink/mika/issues/) [![GitHub issues-closed](https://img.shields.io/github/issues-closed/Shaynlink/mika.svg)](https://GitHub.com/Shaynlink/node-anemy/issues?q=is%3Aissue+is%3Aclosed)
 
 Mika is a simple Discord bot for music
@@ -20,14 +20,6 @@ prefix: **m!**
 | remove | remove music from playlist |
 | seek | set seek |
 
-#### play
-[![exemple play](https://github.com/Shaynlink/mika/blob/master/assets/exemple/mika-exemple-1.png)](https://github.com/Shaynlink/mika)
-
-#### nowplaying
-[![exemple play](https://github.com/Shaynlink/mika/blob/master/assets/exemple/mika-exemple-2.png)](https://github.com/Shaynlink/mika)
-
-#### help
-[![exemple play](https://github.com/Shaynlink/mika/blob/master/assets/exemple/mika-exemple-3.png)](https://github.com/Shaynlink/mika)
 
 ## Install
 
