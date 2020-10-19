@@ -18,16 +18,16 @@ module.exports = {
         const cmd = client.commands.get(command) || client.commands.get(client.aliases.get(command));
         if (!cmd) return null;
         if (!message.guild && cmd.guildOnly) {
-            return message.channel.send(`This command is only available in a guild`);
+            return message.channel.send(`este comando solo esta disponible en un guild`);
         };
         if (message.guild && !message.channel.permissionsFor(message.guild.me).has(cmd.botPerm, {checkAdmin: true})) {
-           return message.reply(`I need \`${cmd.botPerm.join('`, `')}\` permissions for work correctly`);
+           return message.reply(`Nescecito \`${cmd.botPerm.join('`, `')}\` permisos para funcionar correctamente`);
         };
         if (message.guild && message.guild.ownerID !== message.member.id && !message.channel.permissionsFor(message.member).has(cmd.userPerm, {checkAdmin: true})) {
-           return message.reply(`You need \`${cmd.userPerm.join('`, `')}\` for this command`);
+           return message.reply(`Nescecitas \`${cmd.userPerm.join('`, `')}\` para este comando`);
         };
         if (!cmd.enabled) {
-            return message.channel.send('This command is disabled');
+            return message.channel.send('este comando esta desactivado');
         };
         cmd.execute(client, message, args);
     },
